@@ -51,5 +51,5 @@ function randomsort(a, b) {
         var music = new Audio('open.ogg');
         img.style.display = "none";
         music.play();
-        b1.disabled=true
+        b1.style.display = "black";
     }
