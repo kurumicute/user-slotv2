@@ -48,7 +48,8 @@ function randomsort(a, b) {
     }
     function imgf(){
         var img = document.getElementById("i");
-        img.style.display = "none";
         var music = new Audio('open.ogg');
+        img.style.display = "none";
         music.play();
+        this.disabled=true
     }
