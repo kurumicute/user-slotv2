@@ -6,7 +6,7 @@ function randomsort(a, b) {
     function f(){
         var img = document.getElementById("i");
         var b1 = document.getElementById("b1");
-        var user = ['第1個','第2個','第3個','第4個'];
+        var user = ['第1個去倒垃圾','第2個去倒垃圾','第3個去倒垃圾','第4個去倒垃圾'];
         var name = document.getElementById("t1")
         var a = /^[a-zA-Z()]+$/.test(name.value);
         var b = /^[1-9()]+$/.test(name.value);
@@ -51,5 +51,5 @@ function randomsort(a, b) {
         var music = new Audio('open.ogg');
         img.style.display = "none";
         music.play();
-        this.disabled=true
+        b1.disabled=true
     }
