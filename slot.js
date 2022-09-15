@@ -50,6 +50,6 @@ function randomsort(a, b) {
         var img = document.getElementById("i");
         var music = new Audio('open.ogg');
         img.style.display = "none";
+        b1.style.display = "none";
         music.play();
-        b1.style.display = "black";
     }
